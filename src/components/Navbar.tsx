@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <header className="px-4 lg:px-6 h-14 flex items-center border-b">
       <Link
-        href="#"
+        href="/"
         className="flex items-center justify-center"
         prefetch={false}
       >
@@ -48,13 +48,13 @@ export default function Navbar() {
 
         <Link
           className={`${buttonVariants({ variant: "link" })}`}
-          href="/singup"
+          href="/signup"
         >
           Sign up
         </Link>
         <Link
           className={`${buttonVariants({ variant: "link" })}`}
-          href="/singin"
+          href="/signin"
         >
           Sign in
         </Link>
