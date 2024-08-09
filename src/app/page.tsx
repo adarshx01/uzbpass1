@@ -7,7 +7,7 @@ const museums = [
   {
     name: "Samarkand Museum",
     description:
-      "Explore the rich cultural heritage and stunning architecture of Uzbekistan's top museums. Book your tickets now for an unforgettable experience.",
+      "Explore the rich cultural heritage and stunning architecture of Uzbekistan&apos;s top museums. Book your tickets now for an unforgettable experience.",
     image: "/placeholder.svg",
   },
   {
@@ -19,13 +19,13 @@ const museums = [
   {
     name: "Nukus Museum",
     description:
-      "Explore the world's second-largest collection of Russian avant-garde art at the Nukus Museum.",
+      "Explore the world&apos;s second-largest collection of Russian avant-garde art at the Nukus Museum.",
     image: "/placeholder.svg",
   },
   {
     name: "Tashkent Museum",
     description:
-      "Discover the rich history and culture of Uzbekistan's capital city at the Tashkent Museum.",
+      "Discover the rich history and culture of Uzbekistan&apos;s capital city at the Tashkent Museum.",
     image: "/placeholder.svg",
   },
   {
@@ -51,11 +51,11 @@ export default function Component() {
             <div className="grid max-w-[1300px] items-center mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
               <div>
                 <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
-                  Discover the Wonders of Uzbekistan's Museums
+                  Discover the Wonders of Uzbekistan&apos;s Museums
                 </h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                   Explore the rich cultural heritage and stunning architecture
-                  of Uzbekistan's top museums. Book your tickets now for an
+                  of Uzbekistan&apos;s top museums. Book your tickets now for an
                   unforgettable experience.
                 </p>
               </div>
@@ -80,7 +80,7 @@ export default function Component() {
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Discover the most renowned museums in Uzbekistan, each
-                  offering a unique glimpse into the country's rich history and
+                  offering a unique glimpse into the country&apos;s rich history and
                   culture.
                 </p>
               </div>
@@ -108,7 +108,7 @@ export default function Component() {
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                Find and Book Tickets for Uzbekistan's Top Museums
+                Find and Book Tickets for Uzbekistan&apos;s Top Museums
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Use our search tool to explore and book tickets for the most
